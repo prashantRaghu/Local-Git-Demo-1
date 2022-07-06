@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "9cb4f2b2-88aa-4cfc-adf6-8f0318975156",
+		"name": "CA Collection from File System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "889210-9cb4f2b2-88aa-4cfc-adf6-8f0318975156"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "aadaabaa-d2e1-456a-abe0-7c567277fa77",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURl}}?=Change",
+					"host": [
+						"{{baseURl}}"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "Change"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "54d0d1e6-78a0-4fdc-8601-12f3ac4346d0",
+				"type": "text/javascript",
+				"exec": [
+					"// das"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "233faf91-6c4b-4d22-aab2-ba40d35119a6",
+				"type": "text/javascript",
+				"exec": [
+					"console.log(pm)",
+					""
+				]
+			}
+		}
+	]
+}
